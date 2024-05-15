@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    /* background-color: #4caf50; */
+    background: linear-gradient(to bottom, #4CAF50, #2E8B57);
+  }
+
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .controls button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .controls button:hover {
+    background-color: #45a049;
+  }
+  
+  .volume {
+    margin-top: 20px;
+  }
+  
+  .volume input[type="range"] {
+    width: 100%;
+    margin-top: 10px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #4caf50; /* Set background color to green */
+    border-radius: 5px;
+  }
+  
+  .volume input[type="range"]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    background: none; /* Remove background */
+  }
+  
+  .volume input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #fff; /* Set thumb color to white */
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add shadow for better visibility */
+  }
+  
+  
+  .progress {
+    margin-top: 20px;
+  }
+  
+  .progress progress {
+    width: 100%;
+    height: 10px;
+    border: none;
+    background-color: #ddd;
+  }
+  
+  .progress progress::-webkit-progress-value {
+    background-color: #4caf50;
+    border-radius: 5px;
+  }
+  
+  #playlist {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  a:hover {
+    color: #555;
+  }
+  
+  
+  
